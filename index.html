@@ -1,0 +1,9 @@
+<!doctype html>
+<script src="src/engine.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+    var engine = new Engine();
+    var canvas = engine.createCanvas(640, 480);
+    requestAnimationFrame(engine.run);
+}
+</script>
